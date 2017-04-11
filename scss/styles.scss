@@ -1,0 +1,25 @@
+$red: #fff;
+$white: #000;
+
+body {
+  background: $red;
+  color: $white;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.flexbox-contents {
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.container {
+  flex: 2;
+  width: 700px;
+  height: 500px;
+}
